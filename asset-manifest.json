@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/toitoine.github.io/static/css/main.53b91b77.css",
+    "main.js": "/toitoine.github.io/static/js/main.95ee11b4.js",
+    "static/js/787.dd4029b4.chunk.js": "/toitoine.github.io/static/js/787.dd4029b4.chunk.js",
+    "static/media/photo.jpg": "/toitoine.github.io/static/media/photo.00996a03fa03eee47f78.jpg",
+    "static/media/docker-3.svg": "/toitoine.github.io/static/media/docker-3.89f1d0bd7b6c9c94c47682e7e9c86085.svg",
+    "static/media/tlogo2.svg": "/toitoine.github.io/static/media/tlogo2.312520c979a1b2527c4d3b3548aa852f.svg",
+    "static/media/logo.svg": "/toitoine.github.io/static/media/logo.018861e466c2066d6a38fe07142dc125.svg",
+    "index.html": "/toitoine.github.io/index.html",
+    "main.53b91b77.css.map": "/toitoine.github.io/static/css/main.53b91b77.css.map",
+    "main.95ee11b4.js.map": "/toitoine.github.io/static/js/main.95ee11b4.js.map",
+    "787.dd4029b4.chunk.js.map": "/toitoine.github.io/static/js/787.dd4029b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53b91b77.css",
+    "static/js/main.95ee11b4.js"
+  ]
+}
