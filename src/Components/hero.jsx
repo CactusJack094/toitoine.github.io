@@ -2,10 +2,11 @@ import React from "react";
 import logoReact from "./../logo.svg";
 import logoTL from "./../tlogo2.svg";
 import dockerLogo from "./../docker-3.svg";
+import CV from "./../CV.pdf";
 
 const hero = () => {
   return (
-    <section id="#hero" class="bg-white dark:bg-gray-900">
+    <section id="hero" class="bg-white dark:bg-gray-900">
       <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a
           href="mailto:antlev.pro@gmail.com"
@@ -23,8 +24,11 @@ const hero = () => {
             Ouvert pour proposition de poste et/ou projet !
           </span>
         </a>
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-          GRAND TITRE A DEFINIR
+        <h4 className="mb-2 text-3xl font-light tracking-tight leading-none text-gray-400 
+        dark:text-slate-400 md:text-3xl lg:text-4xl ">Antoine LEVY</h4>
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 
+        md:text-5xl lg:text-6xl dark:text-white">
+          DEVELOPPEUR FRONT END
         </h1>
         <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           Bienvenu sur mon site internet. Scrollez pour en savoir plus sur mes
@@ -32,10 +36,11 @@ const hero = () => {
         </p>
         <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
-            href="#"
+            href={CV}
+            download
             class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
-            Learn more
+            Mon CV
             <svg
               class="ml-2 -mr-1 w-5 h-5 md:animate-bounce"
               fill="currentColor"
